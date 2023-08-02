@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    *{
+        padding: 0px;
+        margin:0px;
+        box-sizing: border-box;
+    }
+    body{
+        background-color:black;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .main{
+        padding: 45px;
+        width:350px;
+        background-color: #fff;
+    }
+    input,select,button{
+width: 250px;
+    }
+    h1{
+        text-align: center;
+    }
+    button{
+        height: 30px;
+        background-color: black;
+        color: #fff;
+        outline: none;
+        border: none;
+
+    }
+    </style>
+</head>
+<body>
+ <div class="main">
+    <h1>Signup</h1>
+    <form action="">
+        <label for="name">Name:</label>
+        <br>
+        <input type="text" name="" id="Name">
+        <br>
+        <label for="Batch">Batch:</label>
+        <br>
+        <select name="" id="batch">
+            <option value="Sigma0.1">Sigma 1.O</option>
+            <option value="sigma0.2">Sigma 2.O</option>
+        </select>
+        <label for="age">Age:</label>
+        <br>
+        <input type="number" name="" id="age">
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" name="" id="email">
+        <br>
+        <label for="password">Password:</label>
+        <input type="password" name="" id="password">
+        <br>
+        <br>
+        <button>signup</button>
+    </form>
+ </div>
+</body>
+</html>
